@@ -21,7 +21,7 @@ _ss_environment.php
 /framework/
 
 #remove Raports
-/raports/
+/reports/
 
 #remove SiteConfig
 /siteconfig/
