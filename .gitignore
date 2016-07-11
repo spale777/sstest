@@ -13,7 +13,6 @@ _ss_environment.php
 # ignore editor
 /.idea/
 
-
 #remove cms
 /cms/
 

@@ -8,7 +8,7 @@
 
 class HomePage extends Page
 {
-
+    private static $allowed_children = ['ArticleGroup'];
 }
 
 class HomePage_Controller extends Page_Controller

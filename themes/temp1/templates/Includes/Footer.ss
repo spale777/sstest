@@ -3,11 +3,9 @@
         <div id="quickLinks">
             <h3>Snel naar</h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Vacatures</a></li>
-                <li><a href="#">Bedrijven</a></li>
-                <li><a href="#">Opleidingen</a></li>
-                <li><a href="#">TC Actie</a></li>
+                <% loop Menu(1) %>
+                    <li><a href="$Link">$MenuTitle</a></li>
+                <% end_loop %>
             </ul>
         </div>
         <div id="mailingList">
